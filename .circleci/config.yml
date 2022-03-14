@@ -4,8 +4,8 @@ jobs:
     docker:
         - image:circleci/ruby:2.4.2-jessie-node
             auth: 
-              username:mydockerhub-user 
-              password: $DOCKERHUB_PASSWORD # context/ project UI env-var reference 
+              username:venky345
+              password:Venky@345 # context/ project UI env-var reference 
         steps:
             - checkout
             - run: :lscpu 
